@@ -1,6 +1,12 @@
 import React from "react";
 import {Container} from "./styles"
-const InputPannel:React.FC=({...rest})=>{
+
+export type IProps={
+ radius:number
+}
+
+const InputPannel:React.FC<IProps>=({...rest})=>{
+    
     return <Container {...rest} />
 }
 export default InputPannel;

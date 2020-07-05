@@ -40,5 +40,9 @@
   },
   "devDependencies": {
     "@types/styled-components": "^5.1.0"
+  },
+  "baseUrl":"./src",
+  "paths":{
+    "@components":"./components/*"
   }
 }
